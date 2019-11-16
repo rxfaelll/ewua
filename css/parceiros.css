@@ -1,0 +1,136 @@
+.parceiros-text{
+    width: 80%;
+
+    margin: 38px auto;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+#header-help-btn{
+    width: 47px;
+    height: 38px;
+
+    position: absolute;
+    left: 83.82%;
+
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+
+    font-family: arimaMadurai;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+.container-text{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.container-parceiro{
+    width: 90%;
+    height: 109px;
+
+    background-color: var(--branco);
+    border-radius: 20px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.07);
+
+    margin: 0 auto 20px auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.img-parceiro{
+    width: 136px;
+    height: 93px;
+    margin: 8px 20px 8px 8px;
+}
+
+.nome-parceiro{
+    font-family: arimaMadurai;
+    font-size: 20px;
+    letter-spacing: -0.3px;
+}
+
+.tipo-parceiro{
+    font-family: helveticaLtStd;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.3px;    
+    color: #6a6a6a;
+}
+
+/* Cards dos restaurantes */
+
+.container-parceria-help{
+    width: 90%;
+    height: 72vh;
+
+    background: var(--branco);
+    border-radius: 20px;
+
+    margin: 0 auto;
+
+    position: fixed;
+    top: 49%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+
+    padding-top: 56px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 56px;
+
+    overflow: scroll;
+    
+    display: none;
+}
+
+.container-parceria-help h1{
+    font-family: arimaMadurai;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: -0.3px;
+}
+
+.container-parceria-help p{
+    font-family: helveticaLtStd;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+}
+
+.container-parceria-help button{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.blur-parceria-help{
+    width: 100%;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background: rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(7px);
+
+    display: none;
+}
+
+.show-container{
+    display: block;
+}
