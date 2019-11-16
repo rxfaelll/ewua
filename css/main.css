@@ -30,6 +30,12 @@ body{
     padding-top: 70px;
 }
 
+button{
+    border: none;
+    background: none;
+    outline: none;
+}
+
 .subtitle-normal{
     font-family: helveticaLtStd;
     font-size: 16px;
