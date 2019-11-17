@@ -22,7 +22,7 @@
         Lucas Eliseo
     </author>
     
-    <preference name="Fullscreen" value="true" />
+    <preference name="fullscreen" value="true" />
     <preference name="orientation" value="portrait"/>
     <preference name="fullscreen" value="true"/>
     <preference name="permissions" value="none"/>
