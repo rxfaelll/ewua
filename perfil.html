@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/perfil.css">
     <title>ewûa</title>
 </head>
 <body>
@@ -36,6 +37,51 @@
             <p class="highlight-text-icon subtitle-small">Perfil</p>
         </a>
     </nav>
+
+    <div class="container-foto-user">
+        <div class="foto-user">
+            <img src="img/aleatorio.png" alt="">
+        </div>
+        <button>Trocar</button>
+    </div>
+
+    <form action="" id="js-form">
+        <div class="container-input">
+            <input type="text" name="nome-perfil" id="nome-form" class="form-input input-nome">
+            <div class="ph-nome">Nome</div>
+        </div>
+
+        <div class="container-input">
+            <input type="email" name="email-perfil" id="email-form" class="form-input input-email">
+            <div class="ph-email">Email</div>
+        </div>
+
+        <div class="container-input">
+            <input type="text" name="tel-perfil" id="tel-form" class="form-input input-tel">
+            <div class="ph-tel">Tel</div>
+        </div>
+
+        <div class="container-input">
+            <input type="password" name="senha-perfil" id="senha-form" class="form-input input-senha">
+            <div class="ph-senha">Senha</div>
+        </div>
+
+        <button class="primary-btn" id="salvar-form">Salvar alterações</button>
+
+        <button class="secondary-btn" id="cancelar-form">Cancelar</button>
+
+    </form>
+
+    <div class="container-termos">
+        <a href="">Termo de Uso</a>
+        <a href="">Termos de Privacidade</a>
+    </div>
+
+    <button class="secondary-btn log-out-btn">Log out</button>
+
+    <input type="file" name="" id="">
+
+    <script src="js/perfil.js"></script>
 
 </body>
 </html>

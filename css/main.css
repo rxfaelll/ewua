@@ -27,7 +27,7 @@
 }
 
 body{
-    background-color: #f2f2f2;
+    background-color: #FAFAFA;
     padding-bottom: 100px;
     padding-top: 70px;
 }
@@ -57,6 +57,46 @@ a{
     line-height: 19px;
     letter-spacing: -0.3px;    
     color: #6a6a6a;
+}
+
+.primary-btn{
+    width: 100%;
+    height: 47px;
+
+    background: var(--principal);
+
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+
+    font-family: arimaMadurai;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
+.secondary-btn{
+    width: 100%;
+    height: 47px;
+
+    background: #FFF;
+
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+
+    font-family: arimaMadurai;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--principal);
+
+    margin-bottom: 20px;
 }
 
 header{
