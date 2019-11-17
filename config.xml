@@ -21,9 +21,8 @@
         Mainny Fernandes
         Lucas Eliseo
     </author>
-
     
-
+    <preference name="Fullscreen" value="true" />
     <preference name="orientation" value="portrait"/>
     <preference name="fullscreen" value="true"/>
     <preference name="permissions" value="none"/>
@@ -31,7 +30,7 @@
 
     <icon src="icons/logo_claro_small.png"/>
     <!-- <plugin name="cordova-plugin-splashscreen"/>
-    <splash src="img/phoneGap_items/ALGUMA_COISA.png"/> -->
+    <splash src="img/phoneGap_items/ALGUMA_COISA.png"/> -->    
 
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />   
