@@ -28,7 +28,7 @@
     <preference name="permissions" value="none"/>
     <platform name="android"/>
 
-    <icon src="icons/logo_escuro_small.png"/>
+    <icon src="icons/icone-app.png"/>
     <!-- <plugin name="cordova-plugin-splashscreen"/>
     <splash src="img/phoneGap_items/ALGUMA_COISA.png"/> -->    
 
