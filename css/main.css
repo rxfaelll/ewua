@@ -121,6 +121,9 @@ header > div{
     font-family: arimaMadurai;
     font-size: 24px;
     letter-spacing: -0.3px;
+
+    color: #000000;
+    text-transform: uppercase;
 }
 
 .nav-bar{
