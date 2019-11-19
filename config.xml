@@ -22,8 +22,6 @@
         Lucas Eliseo
     </author>
 
-    <preference name='phonegap-version' value='cli-6.5.0' />
-    <preference name='pgb-builder-version' value='2' />    
     <preference name="fullscreen" value="true" />
     <preference name="orientation" value="portrait"/>
     <preference name="permissions" value="none"/>
@@ -31,7 +29,7 @@
 
     <icon src="icons/icone-app.png"/>
     <plugin name="cordova-plugin-splashscreen"/>
-    <splash src="img/splash-teste.jpg"/>
+    <splash src="img/splash.jpg"/>
 
 
     <!-- Não sei oq isso faz -->
