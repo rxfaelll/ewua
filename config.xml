@@ -24,7 +24,6 @@
     
     <preference name="fullscreen" value="true" />
     <preference name="orientation" value="portrait"/>
-    <preference name="fullscreen" value="true"/>
     <preference name="permissions" value="none"/>
     <platform name="android"/>
 
@@ -32,9 +31,16 @@
     <!-- <plugin name="cordova-plugin-splashscreen"/>
     <splash src="img/phoneGap_items/ALGUMA_COISA.png"/> -->    
 
-    <preference name="AllowInlineMediaPlayback" value="true" />
+    <!-- <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />   
     <allow-navigation href="*youtube*" />
     <allow-navigation href="*ytimg*" />
-    <allow-navigation href="*youtube-nocookie*" />
+    <allow-navigation href="*youtube-nocookie*" /> -->
+
+
+    <!-- Add the whitelist plugin -->
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
+
+    <!-- White list https access to Youtube -->
+    <allow-navigation href="https://*youtube.com/*"/>
 </widget>
