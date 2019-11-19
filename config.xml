@@ -28,19 +28,13 @@
     <platform name="android"/>
 
     <icon src="icons/icone-app.png"/>
-    <!-- <plugin name="cordova-plugin-splashscreen"/>
-    <splash src="img/phoneGap_items/ALGUMA_COISA.png"/> -->    
-
-    <!-- <preference name="AllowInlineMediaPlayback" value="true" />
-    <preference name="MediaPlaybackRequiresUserAction" value="false" />   
-    <allow-navigation href="*youtube*" />
-    <allow-navigation href="*ytimg*" />
-    <allow-navigation href="*youtube-nocookie*" /> -->
+    <plugin name="cordova-plugin-splashscreen"/>
+    <splash src="img/splash-teste.jpg"/>
 
 
-    <!-- Add the whitelist plugin -->
+    <!-- Não sei oq isso faz -->
     <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
 
-    <!-- White list https access to Youtube -->
+    <!-- Também não sei oq isso faz -->
     <allow-navigation href="https://*youtube.com/*"/>
 </widget>
