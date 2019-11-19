@@ -169,6 +169,10 @@ header > div{
     font-size: 12px;
 }
 
+.ph-email, .ph-nome, .ph-senha, .ph-tel{
+    pointer-events: none;
+}
+
 .no-highlight-text-icon{
     color: var(--grey);
 }
