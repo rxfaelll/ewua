@@ -11,6 +11,8 @@ header{
     margin-top: 25px;
     width: 100%;
     height: 243px;
+
+    background: #969696;
 }
 
 .container-video iframe{
@@ -96,6 +98,7 @@ header{
     font-family: arimaMadurai;
     font-size: 22px;
     letter-spacing: -0.3px;
+    color: black;
 }
 
 .ep-name p{
