@@ -6,6 +6,10 @@
 
 - [ ] Tirar o "Ir pra home" da página index dps q o desenvolvimento acabar
 
+- [ ] Adicionar os links para as redes sociais na home
+
+- [ ] Incorporar o teaser e o primeiro EP
+
 - [ ] Mamar 3 mendigo e 1 travesti na noite de apresentar o inter
 
 - [x] Ser corno
