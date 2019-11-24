@@ -38,23 +38,3 @@ let salvarForm = document.querySelector("#entrar-login");
 salvarForm.addEventListener("click", event => {
     event.preventDefault();
 })
-
-// Botão de cancelar
-let cancelarForm = document.querySelector("#cancelar-login");
-cancelarForm.addEventListener("click", event => {
-    event.preventDefault();
-
-    apagaCampos();
-})
-
-function apagaCampos() {
-    let formInput = document.querySelectorAll("#js-form div input");
-    let formPlaceholder = document.querySelectorAll("#js-form div div");
-
-    for (let i = 0; i < formInput.length; i++) {
-        formInput[i].value = "";
-        formPlaceholder[i].classList.remove("up-placeholder");
-        formPlaceholder[i].classList.remove("up-placeholder-tel");
-        formPlaceholder[i].classList.remove("up-placeholder-senha");
-    }
-}

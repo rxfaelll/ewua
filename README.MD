@@ -1,0 +1,11 @@
+## QQ FALTA FAZER AINDA??? ##
+
+- [ ] Perguntar pro Prof como arruma a splash
+
+- [ ] Colocar alguns textos nas temporadas 2 e 3 (Tá com lorem Ipsum)
+
+- [ ] Tirar o "Ir pra home" da página index dps q o desenvolvimento acabar
+
+- [ ] Mamar 3 mendigo e 1 travesti na noite de apresentar o inter
+
+- [x] Ser corno

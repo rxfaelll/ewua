@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="css/parceiros_responsive.css">
     <title>ewûa</title>
 </head>
+
 <body>
     <header>
         <div>Parceiros</div>
@@ -25,29 +27,31 @@
         <a href="assistir.html">
             <div>
                 <img src="icons/assistir-icon-off.svg" alt="">
-            </div>            
+            </div>
             <p class="no-highlight-text-icon subtitle-small">Assistir</p>
         </a>
         <a href="parceiros.html">
             <div>
                 <img src="icons/parceiros-icon-on.svg" alt="">
-            </div>            
+            </div>
             <p class="highlight-text-icon subtitle-small">Parceiros</p>
         </a>
         <a href="perfil.html">
             <div>
                 <img src="icons/perfil-icon-off.svg" alt="">
-            </div>            
+            </div>
             <p class="no-highlight-text-icon subtitle-small">Perfil</p>
         </a>
     </nav>
 
-    <p class="parceiros-text subtitle-normal">Conheça os estabelecimentos parceiros do EWÛA, que produzem de forma sustentável.</p>
+    <p class="parceiros-text subtitle-normal">Conheça os estabelecimentos parceiros do EWÛA, que produzem de forma
+        sustentável.</p>
 
     <main>
-        <button class="container-parceiro">
+        <button class="container-parceiro" id="container-parceiro-1">
             <div class="img-parceiro">
                 <img src="img/parc1.png" alt="">
+                <img src="icons/selo-verde.png" class="selo-parceiro" alt="">
             </div>
             <div class="container-text">
                 <p class="nome-parceiro">Nome do restaurante</p>
@@ -58,6 +62,7 @@
         <button class="container-parceiro">
             <div class="img-parceiro">
                 <img src="img/parc2.png" alt="">
+                <img src="icons/selo-verde.png" class="selo-parceiro" alt="">
             </div>
             <div class="container-text">
                 <p class="nome-parceiro">Nome do restaurante</p>
@@ -68,6 +73,7 @@
         <button class="container-parceiro">
             <div class="img-parceiro">
                 <img src="img/parc3.png" alt="">
+                <img src="icons/selo-verde.png" class="selo-parceiro" alt="">
             </div>
             <div class="container-text">
                 <p class="nome-parceiro">Nome do restaurante</p>
@@ -78,6 +84,7 @@
         <button class="container-parceiro">
             <div class="img-parceiro">
                 <img src="img/parc4.png" alt="">
+                <img src="icons/selo-verde.png" class="selo-parceiro" alt="">
             </div>
             <div class="container-text">
                 <p class="nome-parceiro">Nome do Produtor</p>
@@ -85,23 +92,56 @@
             </div>
         </button>
 
-    </main>
+        <!-- Cards do restaurantes -->
+        <div class="card-parceiro" id="card-parceiro-1">
+            <img class="img-parceiro-card" src="img/parc1-big.png" alt="">
+            <img class="selo-open-card" src="icons/selo-verde.png" alt="">
+            <div class="close-parceiro-btn" id="closeBtnRestaurante">
+                <img src="icons/close-icon-branco.png" alt="">
+            </div>
 
-    <!-- Cards do restaurantes -->
+            <div class="container-nome-card">
+                <p class="nome-restaurante-card">Nome do restaurante</p>
+                <p class="descricao-restaurante-card">Sei lá, alguma descriçãozinha do restaurante lalalalalalalalalala</p>
+            </div>
+
+            <div class="container-local">
+                <div>
+                    <img src="icons/place-icon.svg" alt="">
+                </div>
+                    <p class="cep-card">Bairro, Cidade, Estado</p>
+                    <p class="rua-card">Rua Algum Nome de Rua, 1234</p>
+            </div>
+
+            <div class="placeholder-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.5560157324157!2d-46.64880618445396!3d-23.548466067002643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce584c061c1e03%3A0x59e38971f36f9c69!2sPra%C3%A7a%20Roosevelt!5e0!3m2!1spt-BR!2sbr!4v1574562083042!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+
+            <div class="container-desconto">
+                5% Off
+            </div>
+        </div>
+        <div class="blur-card"></div>
+    </main>
 
     <div class="container-parceria-help">
         <button id="closeBtn"><img src="icons/close-icon.png" alt=""></button>
         <h1>Como funciona a parceria</h1>
-        <p>Todos os nossos parceiros apresentam uma certificação garantindo o comprometimento dos mesmos com uma produção sustentável e consciente. </p>
+        <p>Todos os nossos parceiros apresentam uma certificação garantindo o comprometimento dos mesmos com uma
+            produção sustentável e consciente. </p>
         <h1>Sobre a certificação</h1>
-        <p>Nossa certificação é concedida aos estabelecimentos após uma inspeção para verificar se cumprem as vertentes da sustentabilidade.</p>
+        <p>Nossa certificação é concedida aos estabelecimentos após uma inspeção para verificar se cumprem as vertentes
+            da sustentabilidade.</p>
         <h1>O que é sustentabilidade?</h1>
-        <p>O objetivo do desenvolvimento sustentável é preservar o planeta e as necessidades humanas. De modo que um recurso natural explorado de forma sustentável dure para sempre.
-        Além disso, a sustentabilidade é baseada em três tripés importantíssimos, que integrados fazem a ação acontecer, já que sem eles a sustentabilidade não se sustenta.</p>
+        <p>O objetivo do desenvolvimento sustentável é preservar o planeta e as necessidades humanas. De modo que um
+            recurso natural explorado de forma sustentável dure para sempre.
+            Além disso, a sustentabilidade é baseada em três tripés importantíssimos, que integrados fazem a ação
+            acontecer, já que sem eles a sustentabilidade não se sustenta.</p>
     </div>
     <div class="blur-parceria-help"></div>
 
 
     <script src="js/parceiros.js"></script>
 </body>
+
 </html>

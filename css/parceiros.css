@@ -39,6 +39,8 @@
     width: 136px;
     height: 93px;
     margin: 8px 20px 8px 8px;
+
+    position: relative;
 }
 
 .nome-parceiro{
@@ -59,6 +61,15 @@
     letter-spacing: -0.3px;    
     color: #6a6a6a;
     text-align: left;
+}
+
+.selo-parceiro{
+    width: 28px;
+    height: 28px;
+
+    position: absolute;
+    top: 5px;
+    left: 6px;
 }
 
 /* Cards dos restaurantes */
@@ -127,6 +138,162 @@
     backdrop-filter: blur(7px);
 
     display: none;
+}
+
+/* CARD PARCEIRO */
+
+.card-parceiro{
+    width: 90%;
+    height: 72vh;
+
+    background: var(--branco);
+    border-radius: 20px;
+
+    margin: 0 auto;
+
+    position: fixed;
+    top: 13%;
+    left: 5%;
+    z-index: 1;
+
+    padding-bottom: 20px;
+
+    overflow: scroll;
+
+    display: none;
+}
+
+.blur-card{
+    width: 100%;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background: rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(7px);
+
+    display: none;
+}
+
+.img-parceiro-card{
+    width: 100%;
+    height: 160px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.selo-open-card{
+    width: 71px;
+    height: 71px;
+
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.close-parceiro-btn{
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+
+.container-nome-card{
+    width: 84%;
+
+    margin: 188px auto 0 auto;
+}
+
+.nome-restaurante-card{
+    font-family: arimaMadurai;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.container-local{
+    width: 90%;
+    height: 48px;
+    margin: 36px auto 0 auto;
+
+    padding-left: 70px;
+    padding-top: 6px;
+
+    position: relative;
+}
+
+.container-local div{
+    width: 48px;
+    height: 48px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cep-card{
+    font-family: helveticaLtStd;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #737373;
+}
+
+.rua-card{
+    font-family: helveticaLtStd;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #737373;
+}
+
+.descricao-restaurante-card{
+    font-family: helveticaLtStd;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #6A6A6A;
+}
+
+.placeholder-mapa{
+    width: 90%;
+    height: 164px;
+
+    margin: 21px auto 40px auto;
+
+    background: #969696;
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.container-desconto{
+    width: 90%;
+    height: 62px;
+
+    background: #0F7971;    
+
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+
+    font-family: arimaMadurai;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin: 0 auto;
 }
 
 .show-container{

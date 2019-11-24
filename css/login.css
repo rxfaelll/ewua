@@ -88,6 +88,10 @@ form{
     width: 90%;
     position: absolute;
     top: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Gambiarra pra fazer as labels subirem */

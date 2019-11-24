@@ -81,3 +81,32 @@ function apagaCampos() {
         formPlaceholder[i].classList.remove("up-placeholder-senha");
     }
 }
+
+
+
+
+
+
+
+
+
+//Abre/Fecha container dos termos
+
+const btnTermos = document.querySelector(".container-termos > button");
+const closeBtnTermos = document.querySelector("#close-termos");
+const blurTermos = document.querySelector(".blur-termos");
+const termosAberto = document.querySelector(".container-termos-aberto")
+
+btnTermos.addEventListener("click", openTermos);
+blurTermos.addEventListener("click", closeTermos);
+closeBtnTermos.addEventListener("click", closeTermos);
+
+function openTermos(){
+    termosAberto.classList.add("show-container");
+    blurTermos.classList.add("show-container");
+}
+
+function closeTermos(){
+    termosAberto.classList.remove("show-container");
+    blurTermos.classList.remove("show-container");
+}

@@ -1,0 +1,130 @@
+form{
+    width: 90%;
+
+    margin: 28px auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+    width: 100%;
+    height: 47px;
+
+    margin: 14px 0;
+
+    border: 1px solid var(--placeholderColor);
+    border-radius: 20px;
+    background: none;
+
+    padding: 14px 20px;
+
+    font-family: helveticaLtStd;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+
+    color: #969696;
+
+    outline: none;
+
+    transition: border 0.15s ease-in-out,
+    color 0.15s ease-in-out;
+}
+
+.form-input:focus{
+    border: 1px solid var(--principal);
+    color: var(--principal);
+}
+
+.ph-nome, .ph-email, .ph-tel, .ph-senha{
+    width: 0px;
+    background: #fafafa;
+
+    font-family: helveticaLtStd;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.3px;
+    color: var(--placeholderColor);
+
+    position: absolute;
+    top: 29px;
+    left: 20px;
+
+    transition: width 0.5s ease-in-out,
+    padding-left 0.3s ease-in-out,
+    top 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+.form-primary-btn{
+    width: 90%;
+    position: absolute;
+    top: 80%;
+}
+
+.form-secondary-btn{
+    width: 90%;
+    position: absolute;
+    top: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Gambiarra pra fazer as labels subirem */
+
+.container-input{
+    position: relative;
+}
+
+.input-nome:focus ~ .ph-nome{
+    width: 57px;
+
+    top: 7px;
+    color: var(--principal);
+    padding-left: 10px;
+}
+
+.input-email:focus ~ .ph-email{
+    width: 57px;
+
+    top: 7px;
+    color: var(--principal);
+    padding-left: 10px;
+}
+
+.input-tel:focus ~ .ph-tel{
+    width: 40px;
+
+    top: 7px;
+    color: var(--principal);
+    padding-left: 10px;
+}
+
+.input-senha:focus ~ .ph-senha{
+    width: 60px;
+
+    top: 7px;
+    color: var(--principal);
+    padding-left: 10px;
+}
+
+.up-placeholder{
+    width: 60px;
+    top: 7px;
+    padding-left: 10px;
+}
+
+.up-placeholder-tel{
+    width: 40px;
+    top: 7px;
+    padding-left: 10px;
+}
+
+.up-placeholder-senha{
+    width: 60px;
+    top: 7px;
+    padding-left: 10px;
+}

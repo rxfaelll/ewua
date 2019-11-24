@@ -100,6 +100,97 @@ form{
     color 0.3s ease-in-out;
 }
 
+.container-termos{
+    width: 90%;
+
+    margin: 23px auto 37px auto;
+}
+
+.container-termos button{
+    font-family: helveticaLtStd;
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    text-decoration-line: underline;
+    color: #C68630;
+}
+
+.log-out-btn{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    color: var(--terciario)
+}
+
+.container-termos-aberto{
+    width: 90%;
+    height: 72vh;
+
+    background: var(--branco);
+    border-radius: 20px;
+
+    margin: 0 auto;
+
+    position: fixed;
+    top: 49%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+
+    padding-top: 56px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 56px;
+
+    overflow: scroll;
+    
+    display: none;
+}
+
+.blur-termos{
+    width: 100%;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background: rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(7px);
+
+    display: none;
+}
+
+.show-container{
+    display: block;
+}
+
+.container-termos-aberto div{
+    position: absolute;
+    top: 19px;
+    right: 17px;
+}
+
+.container-termos-aberto h1{
+    font-family: arimaMadurai;
+    font-size: 24px;
+    line-height: 25px;
+
+    letter-spacing: -0.3px;
+
+    color: #000000;
+
+}
+
+.container-termos-aberto p{
+    font-family: helveticaLtStd;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    letter-spacing: -0.3px;
+
+    color: #000000;
+}
+
 /* Gambiarra pra fazer as labels subirem */
 
 .container-input{
@@ -154,28 +245,4 @@ form{
     width: 60px;
     top: 7px;
     padding-left: 10px;
-}
-
-.container-termos{
-    width: 90%;
-
-    margin: 0 auto 20px auto;
-
-    display: flex;
-    justify-content: space-around;
-}
-
-.container-termos a{
-    font-family: helveticaLtStd;
-    font-size: 16px;
-    letter-spacing: -0.3px;
-    text-decoration-line: underline;
-    color: #C68630;
-}
-
-.log-out-btn{
-    width: 90%;
-    display: block;
-    margin: 0 auto;
-    color: var(--terciario)
 }
