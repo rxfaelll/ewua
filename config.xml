@@ -28,13 +28,11 @@
     <platform name="android"/>
 
     <icon src="icons/icone-app.png"/>
-    <plugin name="cordova-plugin-splashscreen"/>
-    <splash src="img/splash.jpg"/>
+    <!-- <plugin name="cordova-plugin-splashscreen"/>
+    <splash src="img/splash.jpg"/> -->
 
 
-    <!-- Não sei oq isso faz -->
+    <!-- Libera o vídeo do youtube -->
     <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
-
-    <!-- Também não sei oq isso faz -->
     <allow-navigation href="https://*youtube.com/*"/>
 </widget>

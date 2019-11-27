@@ -1,6 +1,6 @@
 ## QQ FALTA FAZER AINDA??? ##
 
-- [ ] Perguntar pro Prof como arruma a splash
+- [x] Perguntar pro Prof como arruma a splash
 
 - [ ] Colocar alguns textos nas temporadas 2 e 3 (Tá com lorem Ipsum)
 
