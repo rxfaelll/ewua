@@ -84,6 +84,11 @@ form{
     top: 80%;
 }
 
+.form-primary-btn img{
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
 .form-secondary-btn{
     width: 90%;
     position: absolute;

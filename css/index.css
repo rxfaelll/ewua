@@ -1,7 +1,11 @@
+body{
+    padding-bottom: 5px;
+}
+
 .slider-bem-vindo{
     width: 100%;
 
-    margin-top: 73px;
+    margin-top: 15px;
 }
 
 .container-content{
@@ -43,6 +47,10 @@
     width: 63%;
     
     margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-img img{
@@ -101,4 +109,48 @@
     width: 30px;
 
     background: var(--principal);
+}
+
+
+
+/* SPLASHSCREEN */
+
+.splashscreen{
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--principal);
+
+    transition: left 0.3s ease-in-out;
+}
+
+.splashscreen-out{
+    left: -100vw;
+}
+
+.splashscreen-hide{
+    display: none;
+}
+
+.loader-splashscreen{
+    width: 40px;
+    height: 40px;
+
+    margin-top: 25px;
+
+    transition: transform 3s linear;
+}
+
+.loader-rotation{
+    transform: rotate(360deg);
 }

@@ -38,9 +38,19 @@
 .img-parceiro{
     width: 136px;
     height: 93px;
+
     margin: 8px 20px 8px 8px;
 
     position: relative;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.img-parceiro img:first-child{
+    width: 100%;
+    height: auto;
 }
 
 .nome-parceiro{
@@ -83,7 +93,7 @@
     margin: 0 auto;
 
     position: fixed;
-    top: 12%;
+    top: 90px;
     left: 5%;
     z-index: 1;
 
@@ -95,6 +105,21 @@
     overflow: scroll;
     
     display: none;
+}
+
+.esconde-texto{
+    width: 90%;
+    height: 60px;
+
+    display: block;
+
+    background: #fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    position: fixed;
+    top: 90px;
+    left: 5%;
 }
 
 .container-parceria-help h1{
@@ -148,7 +173,7 @@
     margin: 0 auto;
 
     position: fixed;
-    top: 13%;
+    top: 90px;
     left: 5%;
     z-index: 1;
 
@@ -192,9 +217,39 @@
 }
 
 .close-parceiro-btn{
+    width: 50px;
+    height: 50px;
+
     position: fixed;
-    top: 111px;
-    right: 34px;
+    right: 37px;
+    top: 100px;
+}
+
+.close-stick{
+    width: 35px;
+    height: 5px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    position: absolute;
+    top: 16px;
+    right: 0px;
+
+    transition: background 0.3s ease-in-out;
+}
+
+.stick-1{
+    transform: rotate(45deg);
+}
+
+.stick-2{
+    transform: rotate(-45deg);
+}
+
+.black-stick{
+    background: #6A6A6A;
 }
 
 .container-nome-card{

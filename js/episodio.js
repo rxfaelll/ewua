@@ -5,7 +5,7 @@ $(document).ready(function () {
         dots: true
     });
 
-    $(".slick-next").text("Próximo Episódio");
+    document.querySelector(".slick-next").innerHTML = "Próximo Episódio <img src='icons/seta.svg' alt=''>";
 });
 
 // var primeiroEp = document.querySelector("#slick-slide-control00");

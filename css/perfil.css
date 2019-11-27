@@ -149,7 +149,7 @@ form{
     left: 5%;
     z-index: 1;
 
-    padding-top: 70px;
+    padding-top: 56px;
     padding-left: 28px;
     padding-right: 28px;
     padding-bottom: 56px;
@@ -194,8 +194,8 @@ form{
 
 .container-termos-aberto div{
     position: fixed;
-    top: 111px;
-    right: 41px;
+    right: 37px;
+    top: 100px;
 }
 
 .container-termos-aberto h1{
@@ -204,6 +204,7 @@ form{
     line-height: 25px;
 
     margin-bottom: 7px;
+    margin-top: 26px;
 
     letter-spacing: -0.3px;
 
