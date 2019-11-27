@@ -41,12 +41,12 @@
 
 .container-img{
     width: 63%;
+    
     margin: 0 auto;
 }
 
 .container-img img{
-    width: 100%;
-    height: auto;
+    height: 281px;
 }
 
 .container-btn{

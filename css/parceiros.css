@@ -192,9 +192,9 @@
 }
 
 .close-parceiro-btn{
-    position: absolute;
-    top: 18px;
-    right: 18px;
+    position: fixed;
+    top: 111px;
+    right: 34px;
 }
 
 .container-nome-card{

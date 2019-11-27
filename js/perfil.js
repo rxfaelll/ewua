@@ -110,3 +110,17 @@ function closeTermos(){
     termosAberto.classList.remove("show-container");
     blurTermos.classList.remove("show-container");
 }
+
+
+
+
+
+
+
+
+
+//Pega o arquivo de imagem e mostra pro usuário na bolita
+function loadFile(event) {
+    var output = document.getElementById('image');
+    output.src = URL.createObjectURL(event.target.files[0]);
+  };

@@ -16,6 +16,12 @@
 
     overflow: hidden;
     border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid var(--placeholderColor);
 }
 
 .foto-user img{
@@ -39,6 +45,14 @@
     text-align: center;
     letter-spacing: -0.3px;
     color: #FFFFFF;
+}
+
+.container-foto-user input{
+    width: 75px;
+    height: 34px;
+    position: absolute;
+    top: 110px;
+    opacity: 0;
 }
 
 form{
@@ -131,12 +145,11 @@ form{
     margin: 0 auto;
 
     position: fixed;
-    top: 49%;
-    left: 50%;
+    top: 90px;
+    left: 5%;
     z-index: 1;
-    transform: translate(-50%, -50%);
 
-    padding-top: 56px;
+    padding-top: 70px;
     padding-left: 28px;
     padding-right: 28px;
     padding-bottom: 56px;
@@ -144,6 +157,21 @@ form{
     overflow: scroll;
     
     display: none;
+}
+
+.esconde-texto{
+    width: 90%;
+    height: 60px;
+
+    display: block;
+
+    background: #fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    position: fixed;
+    top: 90px;
+    left: 5%;
 }
 
 .blur-termos{
@@ -165,9 +193,9 @@ form{
 }
 
 .container-termos-aberto div{
-    position: absolute;
-    top: 19px;
-    right: 17px;
+    position: fixed;
+    top: 111px;
+    right: 41px;
 }
 
 .container-termos-aberto h1{
@@ -214,7 +242,7 @@ form{
 }
 
 .input-tel:focus ~ .ph-tel{
-    width: 40px;
+    width: 70px;
 
     top: 7px;
     color: var(--principal);

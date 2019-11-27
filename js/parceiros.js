@@ -38,3 +38,10 @@ function closeCard(){
     cardParceiro.classList.remove("show-container");
     blurCard.classList.remove("show-container");
 }
+
+
+
+
+
+
+

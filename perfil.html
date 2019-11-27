@@ -40,9 +40,10 @@
 
     <div class="container-foto-user">
         <div class="foto-user">
-            <img src="img/aleatorio.png" alt="">
+            <img src="" id="image" alt="">
         </div>
         <button>Trocar</button>
+        <input type="file" name="upload-img" id="upload-img" onchange="loadFile(event)">
     </div>
 
     <form action="" id="js-form">
@@ -77,6 +78,7 @@
     </div>
 
     <div class="container-termos-aberto">
+        <span class="esconde-texto"></span>
         <div id="close-termos"><img src="icons/close-icon.png" alt=""></div>
         <h1>TERMOS DE SERVIÇO E PRIVACIDADE</h1>
         <p>Informações fornecidas por você.<br><br>
