@@ -9,7 +9,7 @@
     height: 38px;
 
     position: absolute;
-    left: 83.82%;
+    right: 4.83%;
 
     background: rgba(0, 0, 0, 0.2);
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.07);
@@ -19,6 +19,8 @@
     font-style: normal;
     font-size: 18px;
     color: white;
+
+    padding-top: 3px;
 }
 
 .container-parceiro{
@@ -205,6 +207,13 @@
     position: absolute;
     top: 0;
     left: 0;
+
+    overflow: hidden;
+}
+
+.img-parceiro-card img{
+    width: 100%;
+    height: auto;
 }
 
 .selo-open-card{

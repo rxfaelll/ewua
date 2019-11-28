@@ -4,7 +4,7 @@
 
 - [ ] Colocar alguns textos nas temporadas 2 e 3 (Tá com lorem Ipsum)
 
-- [ ] Tirar o "Ir pra home" da página index dps q o desenvolvimento acabar
+- [ ] Tirar o "Ir pra home" da página index e index-fake dps q o desenvolvimento acabar
 
 - [ ] Adicionar os links para as redes sociais na home
 

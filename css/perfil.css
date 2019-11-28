@@ -128,6 +128,33 @@ form{
     color: #C68630;
 }
 
+.close-stick{
+    width: 35px;
+    height: 5px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    position: absolute;
+    top: 16px;
+    right: 0px;
+
+    transition: background 0.3s ease-in-out;
+}
+
+.stick-1{
+    transform: rotate(45deg);
+}
+
+.stick-2{
+    transform: rotate(-45deg);
+}
+
+.black-stick{
+    background: #6A6A6A;
+}
+
 .log-out-btn{
     width: 90%;
     display: block;
@@ -192,7 +219,9 @@ form{
     display: block;
 }
 
-.container-termos-aberto div{
+#close-termos{
+    width: 50px;
+    height: 50px;
     position: fixed;
     right: 37px;
     top: 100px;
