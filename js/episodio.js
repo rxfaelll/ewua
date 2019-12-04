@@ -8,6 +8,32 @@ $(document).ready(function () {
     document.querySelector(".slick-next").innerHTML = "Próximo Episódio <img src='icons/seta.svg' alt=''>";
 });
 
+// Precisava só disso mano:
+$('#slider-eps').on("afterChange", function() {
+    numeroEpisodio();
+})
+
+function numeroEpisodio() {
+    
+    var slideEpisodio = $('.slick-current').attr("data-slick-index");
+
+    slideEpisodio = parseInt(slideEpisodio);
+
+    slideEpisodio += 1;
+
+    $('.ep-show').html(`${slideEpisodio}º Episódio`);
+
+    if (slideEpisodio != 1) {
+        $(".slick-next").css("bottom", "auto");
+        $(".slick-next").css("top", "500px");
+    } else {
+        $(".slick-next").css("bottom", "-20px");
+        $(".slick-next").css("top", "auto");
+    }
+}
+
+// O que o Rafa tentou fazer pra resolver isso:
+
 // var primeiroEp = document.querySelector("#slick-slide-control00");
 // var segundoEp = document.querySelector("#slick-slide-control01");
 // var terceiroEp = document.querySelector("#slick-slide-control02");
@@ -33,3 +59,4 @@ $(document).ready(function () {
 
 //     }
 // }, 100);
+

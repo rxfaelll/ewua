@@ -37,17 +37,17 @@ inputTel.addEventListener("input", () => {
         }
 })
 
-// input Senha
-let inputSenha = document.querySelector(".input-senha");
-let phSenha = document.querySelector(".ph-senha");
+// // input Senha
+// let inputSenha = document.querySelector(".input-senha");
+// let phSenha = document.querySelector(".ph-senha");
 
-inputSenha.addEventListener("input", () => {
-        if(inputSenha.value.length > 0){
-            phSenha.classList.add("up-placeholder-senha");
-        }else{
-            phSenha.classList.remove("up-placeholder-senha");
-        }
-})
+// inputSenha.addEventListener("input", () => {
+//         if(inputSenha.value.length > 0){
+//             phSenha.classList.add("up-placeholder-senha");
+//         }else{
+//             phSenha.classList.remove("up-placeholder-senha");
+//         }
+// })
 
 
 
@@ -67,20 +67,24 @@ let cancelarForm = document.querySelector("#cancelar-form");
 cancelarForm.addEventListener("click", event => {
     event.preventDefault();
 
-    apagaCampos();
+    cancelar();
 })
 
-function apagaCampos() {
-    let formInput = document.querySelectorAll("#js-form div input");
-    let formPlaceholder = document.querySelectorAll("#js-form div div");
-
-    for (let i = 0; i < formInput.length; i++) {
-        formInput[i].value = "";
-        formPlaceholder[i].classList.remove("up-placeholder");
-        formPlaceholder[i].classList.remove("up-placeholder-tel");
-        formPlaceholder[i].classList.remove("up-placeholder-senha");
-    }
+function cancelar() {
+    window.location.href = "home.html";
 }
+
+// function apagaCampos() {
+//     let formInput = document.querySelectorAll("#js-form div input");
+//     let formPlaceholder = document.querySelectorAll("#js-form div div");
+
+//     for (let i = 0; i < formInput.length; i++) {
+//         formInput[i].value = "";
+//         formPlaceholder[i].classList.remove("up-placeholder");
+//         formPlaceholder[i].classList.remove("up-placeholder-tel");
+//         formPlaceholder[i].classList.remove("up-placeholder-senha");
+//     }
+// }
 
 
 

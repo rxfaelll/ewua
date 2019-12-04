@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/perfil.css">
     <title>ewûa</title>
+    <script src="js/jquery.js"></script>
 </head>
 <body>
     <header><div>Perfil</div></header>
@@ -61,13 +62,13 @@
             <input type="text" name="tel-perfil" id="tel-form" class="form-input input-tel" autocomplete="false">
             <div class="ph-tel">Telefone</div>
         </div>
-
+<!-- 
         <div class="container-input">
             <input type="password" name="senha-perfil" id="senha-form" class="form-input input-senha" autocomplete="false">
             <div class="ph-senha">Senha</div>
-        </div>
+        </div> -->
 
-        <button class="primary-btn" id="salvar-form">Salvar alterações</button>
+        <button class="primary-btn" id="salvar-form" onclick="atualizarBanco()">Salvar alterações</button>
 
         <button class="secondary-btn" id="cancelar-form">Cancelar</button>
 
@@ -93,16 +94,24 @@
         PROJETO INTERDISCIPLINAR: AUDIOVISUAL. Trata-se de uma publicação temporária para
         propósitos estritamente acadêmicos e sem fins lucrativos. Em atendimento às exigências
         da Lei 9.610/98, do parágrafo 4°, do Artigo 184, do Código Penal, os discentes responsáveis
-        por esta publicação colocam-se à disposição, por intermédio do e-mail (inter.consciencia19@gmail.com),
+        por esta publicação colocam-se à disposição, por intermédio do e-mail (ewua.doc@gmail.com),
         para dirimir quaisquer dúvidas referentes à eventual violação de direitos autorais,
         comprometendo-se desde já, a retirar do ar, qualquer texto, som ou imagem pertencente a
         autor ou titular que se sinta direta ou indiretamente prejudicado.</p>
     </div>
     <div class="blur-termos"></div>
 
-    <button class="secondary-btn log-out-btn">Log out</button>
+    <button onclick="desconectar()" class="secondary-btn log-out-btn">Log out</button>
 
     <script src="js/perfil.js"></script>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+
+    <script src="js/firebase/config.js"></script>
+    <script src="js/firebase/log-out.js"></script>
+    <script src="js/firebase/atualizar-perfil.js"></script>
 </body>
 </html>
