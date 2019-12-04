@@ -79,6 +79,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2px;
+    box-sizing: border-box;
 }
 
 .secondary-btn{
@@ -98,7 +100,8 @@ a{
 
     color: var(--principal);
 
-    margin-bottom: 20px;
+    padding-top: 2px;
+    box-sizing: border-box;
 }
 
 header{
@@ -126,6 +129,7 @@ header > div{
 
     color: #000000;
     text-transform: uppercase;
+    transform: translateY(4px);
 }
 
 .nav-bar{

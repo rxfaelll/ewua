@@ -1,11 +1,11 @@
 body{
     padding-bottom: 5px;
+    min-height: 100vh;
 }
 
 .slider-bem-vindo{
     width: 100%;
-
-    margin-top: 15px;
+    top: 8vh;
 }
 
 .container-content{
@@ -57,9 +57,34 @@ body{
     height: 281px;
 }
 
+@media (max-height: 790px) {
+    .container-img img {
+        height: 200px;
+    }
+}
+
+@media (max-height: 710px) {
+    .slider-bem-vindo {
+        top: 4vh;
+    }
+}
+
+@media (max-height: 660px){
+    .slick-dots {
+        margin-top: 15px !important;
+    }
+    .container-content h1 {
+        margin: 20px 0 10px 0;
+    }
+}
+
 .container-btn{
     width: 90%;
     margin: 0 auto;
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    left: 0;
 }
 
 .container-btn a{
@@ -68,6 +93,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
 }
 
 .container-btn a img{

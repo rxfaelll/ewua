@@ -1,3 +1,13 @@
+:root{
+    --principal: #C68630;
+    --secundario: #0F7971;
+    --grey: #C6C6C6;
+    --placeholderColor: #969696;
+    --terciario: #DA0700;
+    --preto: #000;
+    --branco: #fff;
+}
+
 .parceiros-text{
     width: 80%;
 
@@ -264,7 +274,7 @@
 .container-nome-card{
     width: 84%;
 
-    margin: 188px auto 0 auto;
+    margin: 170px auto 0 auto;
 }
 
 .nome-restaurante-card{
@@ -272,6 +282,7 @@
     font-size: 24px;
 
     color: #000000;
+    margin-bottom: 7px;
 }
 
 .container-local{
@@ -354,8 +365,13 @@
     align-items: center;
     padding-left: 20px;
     margin: 0 auto;
+    padding-top: 3px;
 }
 
 .show-container{
     display: block;
+}
+
+.em-analise {
+    background-color: var(--placeholderColor);
 }
